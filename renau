@@ -1,0 +1,23 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+
+int main(int argc, char *argv[])
+{
+    FILE* fichier = NULL;
+
+    fichier = fopen("test.txt", "r+");
+
+    if (fichier != NULL)
+    {
+        printf("modele de la voiture et sa plaque d'immatriculation\n");
+        // On lit et on écrit dans le fichier
+        
+        
+        // ...
+        
+        fclose(fichier); // On ferme le fichier qui a été ouvert
+    }
+
+    return 0;
+}
