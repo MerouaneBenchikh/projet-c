@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+   int   LongueurAB;
+   int   LongueurBC;
+
+   printf ("LongueurAB :");
+   scanf ("%d",&LongueurAB);
+
+   printf ("LongueurBC :");
+   scanf ("%d",&LongueurBC);
+   if (LongueurAB<LongueurBC)
+      LongueurAB*
+      printf("La plus grande valeur est: %d\n",LongueurBC);
+   else
+      printf("La plus grande valeur est: %d\n",LongueurAB);
+   return 0;
+}
