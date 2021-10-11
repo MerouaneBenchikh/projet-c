@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int ENTIER1, ENTIER2;
+    int ECHANGE;
+    printf("valeur du premier entier :");
+    
+    scanf("%d", &ENTIER1);
+    printf("valeur du deuxieme entier:");
+    scanf("%d", &ENTIER2);
+    ECHANGE=ENTIER1; ENTIER1=ENTIER2;ENTIER2=ECHANGE;
+    printf("Apres échange, le 1er entier = %d, et le deuxieme = %d", ENTIER1, ENTIER2);
+}
