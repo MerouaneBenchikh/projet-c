@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(void)
+
+{
+
+                    int A, B;
+                    //designation des nombres
+
+                    printf("Introduisez deux nombres entiers : ");
+                    //choix des nombres
+
+                    scanf("%d %d", &A, &B);
+                    
+
+                    printf("produit   :  %d\n", A*B);
+                    //mise en place du calcule et du resultat
+
+                   
+
+                    return 0;
+
+}
