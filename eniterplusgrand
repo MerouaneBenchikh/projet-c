@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int entier1, entier2, entier3;
+    //mise en place de 3 entiers
+
+    int Max;
+    //plus grand nombre
+    printf("valeur de entier 1: ");
+    scanf("%d", &entier1);
+    
+    printf("valeur de entier 2: ");
+    scanf("%d", &entier2);
+    
+    printf("valeur de entier 3: ");
+    scanf("%d", &entier3);
+    
+    // designation des entiers
+    if(entier1>=entier2)
+    {
+         Max = entier1;
+    }
+       
+    else 
+    {
+        Max = entier2;
+    }
+    
+    
+    if (entier3>Max)
+    {
+        Max = entier3;
+    }
+    
+    printf("Le maximum de %d, %d et %d est %d", entier1, entier2, entier3, Max);
+    
+    //classement des entiers
+    
+    
+}
