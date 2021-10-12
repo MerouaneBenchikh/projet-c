@@ -1,0 +1,7 @@
+a=int(input("saisir le premier nombre ")) 
+b=int(input("saisir le deuxieme nombre ")) 
+#saisie des nombres entiers
+P=a*b
+#calcule
+print("le produit de ",a," et ",b," est : ",P)
+#resultat
