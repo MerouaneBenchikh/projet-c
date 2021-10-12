@@ -1,0 +1,10 @@
+def echange():
+    print("Deux entiers? ", sep="", end="")
+v1 = int(input())
+v2 = int(input())
+#choisir les 2 entiers
+print("en A: ", v1, " ", v2, sep="")
+v1, v2 = v2, v1
+#avant l'echange 
+print("en B: ", v1, " ", v2, sep="")
+#apres l'echange
