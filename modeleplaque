@@ -1,0 +1,27 @@
+#include <stdio.h> 
+#include <string.h> 
+int main(void) 
+{ 
+    FILE *file = ("phonebook.csv", "a");
+    //nom du fichier
+    
+    if (!file) 
+{ 
+    return 1; 
+ 
+} 
+// modele et plaque 
+int modele, plaque;
+
+printf("modele : ");
+    scanf("%d", &modele);
+
+printf("plaque : ");
+    scanf("%d", &plaque);
+ 
+//mise en forme 
+fprintf(file, "%d,%d\n", modele, plaque); 
+
+fclose(file); 
+
+} 
