@@ -1,0 +1,11 @@
+entier1= int(input("Valeur 1 : "))
+entier2= int(input("Valeur 2 : "))
+entier3= int(input("Valeur 3 : "))
+#nombre de valeur 
+if ( entier1 > entier2 and entier1 > entier3 ) :
+    print ("Valeur la plus grande : %d " % entier1)
+elif ( entier2 > entier1 and entier2 > entier3 ) :
+    print ("Valeur la plus grande : %d" % entier2)
+elif ( entier3 > entier1 and entier3 > entier2 ) :
+    print ("Valeur la plus grande : %d" % entier3)
+#trie
